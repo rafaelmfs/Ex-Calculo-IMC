@@ -17,8 +17,6 @@ function funcaoGeral(){
         const valorPeso = Number(peso.value);
         const valorAltura = Number(altura.value);
         let valorInvalido = resultado.querySelector(".resultado-invalido");
-        console.log(typeof(valorPeso));
-        console.log(valorPeso);
 
         if(valorPeso === 0 || valorAltura === 0){
             valorInvalido.innerHTML = `<p>Campos em branco.</p>`;
